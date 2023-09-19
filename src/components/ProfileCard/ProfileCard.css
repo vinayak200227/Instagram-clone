@@ -1,0 +1,30 @@
+.profileCard{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profileCard > img{
+    border-radius: 50%;
+}
+
+.profileCard__Names{
+    display: flex;
+    flex-direction: column;
+    min-width: 100px;
+}
+
+.profileCard__Username{
+    font-weight: 500;
+}
+
+.profileCard__Name{
+    color: #8F8E8F;
+}
+
+.profileCard > a{
+    color: #0095F6;
+    font-size: 600;
+    text-decoration: none;
+}

@@ -1,0 +1,15 @@
+.appbody{
+   display: flex;
+   margin: 0.5rem 10rem;
+   height: 88.5vh;
+
+}
+
+/*  mobile responsive classes */
+@media screen and (max-width: 1030px){
+  .appbody{
+      width: 95vw;
+      margin: 0 auto;
+      padding: 0;
+  }
+}

@@ -1,0 +1,46 @@
+.sidebar{
+    width: 20rem;
+    
+}
+.suggestionsArea{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.suggestionsArea > span{
+    color: #8F8E8F;
+    font-weight: 600;
+}
+
+.suggestionsArea > a{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
+.suggesCards{
+    margin: 0.2rem 1rem;
+}
+
+.sidebarLinks{
+    margin: 1rem;
+}
+
+.sidebarLinks > span{
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 400;
+    color: #CECFCE;
+    margin:
+}
+
+#footercredits{
+    font-weight: 600;
+}
+ /*  mobile responsive classes */
+ @media screen and (max-width: 1030px){
+     .sidebar{
+         display: none;
+     }
+ }

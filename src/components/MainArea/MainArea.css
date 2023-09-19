@@ -1,0 +1,19 @@
+.mainarea{
+   flex: 1;
+   overflow-y: scroll;
+   margin-right: 0.5rem;
+}
+
+.mainarea::-webkit-scrollbar{
+    display: none;
+}
+
+.storyArea{
+    background-color: white;
+    /* height: 7rem; */
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
